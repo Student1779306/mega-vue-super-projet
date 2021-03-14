@@ -3,15 +3,18 @@
   <HelloWorld msg="Welcome to Your Vue.js App"/>
   <Button />
   <Button />
+  <Sum />
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import Button from './components/Button.vue'
+import Sum from "@/components/Sum";
 
 export default {
   name: 'App',
   components: {
+    Sum,
     HelloWorld,
     Button
   }
